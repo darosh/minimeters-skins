@@ -3,6 +3,6 @@
     "copy": "npm run copy:colormaps && npm run copy:themes && npm run copy:presets",
     "copy:colormaps": "cp ./colormaps/*.map ~/Library/Preferences/MiniMeters/colormaps/",
     "copy:themes": "cp ./themes/*.ini ~/Library/Preferences/MiniMeters/themes/",
-    "copy:presets": "cp ./colormaps/*.mms ~/Library/Preferences/MiniMeters/Presets/"
+    "copy:presets": "cp ./presets/*.mms ~/Library/Preferences/MiniMeters/Presets/"
   }
 }
